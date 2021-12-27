@@ -73,8 +73,8 @@ Here's an example of a of failing test suite:
 <p align="center"><img src="./.meta/error.png" width="85%"></p>
 
 By default, only the first failing test log is printed to the console (and all
-test logs are captured on disk). Pass `--show-errors` to print all error
-messages.
+test logs are captured on disk). Pass `--show-errors` or set the environment variable 
+`ALCOTEST_SHOW_ERRORS` to print all error messages.
 
 ### Selecting tests to execute
 
